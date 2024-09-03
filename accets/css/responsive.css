@@ -1,0 +1,217 @@
+@media all and (max-width:1200px){
+
+    .container{
+        width: 93%;
+    }
+
+    .works-image img {
+        width: 95%;
+    }
+    .works-image-content p {
+        max-width: none;
+    }
+}
+
+@media all and (max-width:1100px){
+
+    .works-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .works-image-content {
+        max-width: 85%;
+        margin-bottom: 4rem;
+    }
+    .works-image {
+        margin-right: 0;
+    }
+    .works-image img {
+        width: 100%;
+    }
+
+    .images {
+        -ms-grid-columns: (1fr)[4];
+            grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media all and (max-width:992px){
+
+    .services {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2,1fr);
+        max-width: 650px;
+        margin: auto;
+    }
+    .service {
+        margin-bottom: 1.5rem;
+    }
+
+    .vivamus-lists {
+        -ms-grid-columns: (1fr)[3];
+            grid-template-columns: repeat(3,1fr);
+        grid-gap: 4.5rem;
+    }
+}
+
+@media all and (max-width:900px){
+
+    .numbers {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2,1fr);
+        grid-gap: 5rem;
+    }
+}
+
+@media all and (max-width:768px){
+
+    .vivamus-lists {
+        grid-gap: 3.5rem;
+    }
+
+    .works-image-content {
+        max-width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .images {
+        -ms-grid-columns: (1fr)[3];
+            grid-template-columns: repeat(3,1fr);
+    }
+
+    .portfolio h2 {
+        margin: 4rem 0 1rem;
+    }
+    .portfolio p {
+        margin-bottom: 4rem;
+    }
+
+    .about-us {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        width: 85%;
+        margin: auto;
+    }
+
+    .team-image-content {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2,1fr);
+        grid-gap: 5rem;
+    }
+}
+
+@media all and (max-width:630px){
+
+    .slider-menu {
+        position: absolute;
+        top: 98px;
+        right: 0;
+        width: 0;
+        overflow: hidden;
+        transition: 1s all cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    .slider-menu.slideMenu{
+        width: 100%;
+    }
+    .slider-menu ul{
+        display: block;
+        background: rgba(0, 0, 0, 0.7);
+        text-align: right;
+    }
+    .slider-menu ul li {
+        padding: 0.48rem 4rem;
+    }
+    .slider-menu ul li:hover{
+        background: #ac6d6ddd;
+    }
+    .slider-menu ul li a{
+        display: inline-block;
+    }
+    .slider-menu ul li a i{
+        display: none;
+    }
+    .menu-bars{
+        display: block;
+    }
+}
+
+@media all and (max-width:576px){
+
+    .header-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .vivamus-lists {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: auto;
+    }
+    .vivamus h3 {
+        margin: 1rem 0;
+    }
+
+    .images {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2,1fr);
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .counts {
+        -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(2,1fr);
+        grid-gap: 5rem;
+    }
+
+    .input {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .input input{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media all and (max-width:480px){
+
+    .header-content h1 {
+        font-size: 4rem;
+    }
+    .services {
+        -ms-grid-columns: auto;
+            grid-template-columns: auto;
+        max-width: 340px;
+        margin: auto;
+    }
+
+    .numbers {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        grid-gap: 4rem;
+    }
+
+    .team-image-content {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width:380px){
+
+    .images {
+        -ms-grid-columns: 1fr;
+            grid-template-columns: 1fr;
+    }
+}
+
+
